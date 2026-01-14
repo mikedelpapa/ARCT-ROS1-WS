@@ -1,0 +1,4 @@
+fanuc/fanuc_lrmate200id_support
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_support/share/fanuc_lrmate200id_support/cmake/fanuc_lrmate200id_supportConfig-version.cmake /root/ros1_ws/devel/share/fanuc_lrmate200id_support/cmake/fanuc_lrmate200id_supportConfig-version.cmake
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_support/share/fanuc_lrmate200id_support/cmake/fanuc_lrmate200id_supportConfig.cmake /root/ros1_ws/devel/share/fanuc_lrmate200id_support/cmake/fanuc_lrmate200id_supportConfig.cmake
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_support/lib/pkgconfig/fanuc_lrmate200id_support.pc /root/ros1_ws/devel/lib/pkgconfig/fanuc_lrmate200id_support.pc

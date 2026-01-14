@@ -1,0 +1,4 @@
+fanuc/fanuc_resources
+/root/ros1_ws/devel/.private/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake /root/ros1_ws/devel/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+/root/ros1_ws/devel/.private/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake /root/ros1_ws/devel/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+/root/ros1_ws/devel/.private/fanuc_resources/lib/pkgconfig/fanuc_resources.pc /root/ros1_ws/devel/lib/pkgconfig/fanuc_resources.pc

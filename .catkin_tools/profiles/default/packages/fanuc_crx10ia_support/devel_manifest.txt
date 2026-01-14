@@ -1,0 +1,4 @@
+fanuc/fanuc_crx10ia_support
+/root/ros1_ws/devel/.private/fanuc_crx10ia_support/share/fanuc_crx10ia_support/cmake/fanuc_crx10ia_supportConfig-version.cmake /root/ros1_ws/devel/share/fanuc_crx10ia_support/cmake/fanuc_crx10ia_supportConfig-version.cmake
+/root/ros1_ws/devel/.private/fanuc_crx10ia_support/share/fanuc_crx10ia_support/cmake/fanuc_crx10ia_supportConfig.cmake /root/ros1_ws/devel/share/fanuc_crx10ia_support/cmake/fanuc_crx10ia_supportConfig.cmake
+/root/ros1_ws/devel/.private/fanuc_crx10ia_support/lib/pkgconfig/fanuc_crx10ia_support.pc /root/ros1_ws/devel/lib/pkgconfig/fanuc_crx10ia_support.pc

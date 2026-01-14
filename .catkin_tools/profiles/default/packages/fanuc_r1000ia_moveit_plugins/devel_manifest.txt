@@ -1,0 +1,5 @@
+fanuc/moveit_cfgs/fanuc_r1000ia_moveit_plugins
+/root/ros1_ws/devel/.private/fanuc_r1000ia_moveit_plugins/share/fanuc_r1000ia_moveit_plugins/cmake/fanuc_r1000ia_moveit_pluginsConfig.cmake /root/ros1_ws/devel/share/fanuc_r1000ia_moveit_plugins/cmake/fanuc_r1000ia_moveit_pluginsConfig.cmake
+/root/ros1_ws/devel/.private/fanuc_r1000ia_moveit_plugins/share/fanuc_r1000ia_moveit_plugins/cmake/fanuc_r1000ia_moveit_pluginsConfig-version.cmake /root/ros1_ws/devel/share/fanuc_r1000ia_moveit_plugins/cmake/fanuc_r1000ia_moveit_pluginsConfig-version.cmake
+/root/ros1_ws/devel/.private/fanuc_r1000ia_moveit_plugins/lib/libfanuc_r1000ia80f_manipulator_moveit_ikfast_plugin.so /root/ros1_ws/devel/lib/libfanuc_r1000ia80f_manipulator_moveit_ikfast_plugin.so
+/root/ros1_ws/devel/.private/fanuc_r1000ia_moveit_plugins/lib/pkgconfig/fanuc_r1000ia_moveit_plugins.pc /root/ros1_ws/devel/lib/pkgconfig/fanuc_r1000ia_moveit_plugins.pc

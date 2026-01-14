@@ -1,0 +1,4 @@
+fanuc/moveit_cfgs/fanuc_lrmate200id_moveit_config
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_moveit_config/share/fanuc_lrmate200id_moveit_config/cmake/fanuc_lrmate200id_moveit_configConfig-version.cmake /root/ros1_ws/devel/share/fanuc_lrmate200id_moveit_config/cmake/fanuc_lrmate200id_moveit_configConfig-version.cmake
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_moveit_config/share/fanuc_lrmate200id_moveit_config/cmake/fanuc_lrmate200id_moveit_configConfig.cmake /root/ros1_ws/devel/share/fanuc_lrmate200id_moveit_config/cmake/fanuc_lrmate200id_moveit_configConfig.cmake
+/root/ros1_ws/devel/.private/fanuc_lrmate200id_moveit_config/lib/pkgconfig/fanuc_lrmate200id_moveit_config.pc /root/ros1_ws/devel/lib/pkgconfig/fanuc_lrmate200id_moveit_config.pc

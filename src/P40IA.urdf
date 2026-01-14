@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+ <robot name="p40ia">
+ 
+ <link name="base_link"/>
+ 
+ <joint name="joint_1" type="revolute">
+ <parent link="base_link"/>
+ <child link="link_1"/>
+ <origin xyz="0 0 0" rpy="0 0 0"/>
+ <axis xyz="0 0 1"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ <link name="link_1"/>
+ 
+ <joint name="joint_2" type="revolute">
+ <parent link="link_1"/>
+ <child link="link_2"/>
+ <origin xyz="0 0 0.5" rpy="0 0 0"/>
+ <axis xyz="0 1 0"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ <link name="link_2"/>
+ 
+ <joint name="joint_3" type="revolute">
+ <parent link="link_2"/>
+ <child link="link_3"/>
+ <origin xyz="0 0 0.5" rpy="0 0 0"/>
+ <axis xyz="0 1 0"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ <link name="link_3"/>
+ 
+ <joint name="joint_4" type="revolute">
+ <parent link="link_3"/>
+ <child link="link_4"/>
+ <origin xyz="0 0 0.3" rpy="0 0 0"/>
+ <axis xyz="1 0 0"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ <link name="link_4"/>
+ 
+ <joint name="joint_5" type="revolute">
+ <parent link="link_4"/>
+ <child link="link_5"/>
+ <origin xyz="0 0 0.2" rpy="0 0 0"/>
+ <axis xyz="0 1 0"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ <link name="link_5"/>
+ 
+ <joint name="joint_6" type="revolute">
+ <parent link="link_5"/>
+ <child link="tool0"/>
+ <origin xyz="0 0 0.1" rpy="0 0 0"/>
+ <axis xyz="1 0 0"/>
+ <limit lower="-6.283" upper="6.283" effort="100" velocity="1"/>
+ </joint>
+ 
+ <link name="tool0"/>
+ 
+ <!-- TRANSMISSIONS -->
+ <transmission name="tran1">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_1">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor1">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ <transmission name="tran2">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_2">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor2">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ <transmission name="tran3">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_3">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor3">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ <transmission name="tran4">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_4">
+<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor4">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ <transmission name="tran5">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_5">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor5">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ <transmission name="tran6">
+ <type>transmission_interface/SimpleTransmission</type>
+ <joint name="joint_6">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ </joint>
+ <actuator name="motor6">
+ <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+ <mechanicalReduction>1</mechanicalReduction>
+ </actuator>
+ </transmission>
+ 
+ </robot>
